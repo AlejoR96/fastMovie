@@ -20,4 +20,39 @@ a{
   text-decoration: none;
 }
 
+/*Navigation main */
+
+.nav-main{
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
+}
+
+.nav-brand{
+  width: 50px;
+}
+
+/* Nav medium */
+
+.nav-main ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li a {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nav-main ul li a:hover{
+  border: 2px solid #aa1111;
+}
+
 
