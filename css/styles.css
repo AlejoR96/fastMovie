@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style in body page */
+body{
+  background-color: #000000;
+  color: #ffffff;
+  background-image: url('../img/img1.svg') ;
+  height: 50px;
+  font-family: "ruda", sans-serif;
+  
+}
+
+/* Style in the navigation  bar */
+a{
+  color:  #ffffff;
+  text-decoration: none;
+}
+
+
