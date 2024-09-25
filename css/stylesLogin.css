@@ -1,0 +1,80 @@
+/*Styles of login */
+
+Body {
+
+  background-image: url('../img/img1.svg') ;
+}
+
+.conteinerLogin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  text-align: center;
+  padding: 50px 25px;
+  box-shadow: 5px 5px 10px rgb(87, 84, 84);
+  width: 20%;
+ 
+}
+ 
+.title{
+  color: #2f2b2b;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+form label{
+margin-bottom: 15px;
+ width: 87%;
+ padding: 1px;
+}
+ 
+form.link{
+ 
+color: blue;
+}
+ 
+.button{
+  background: #fafcfd;
+  border: solid rgb(225, 221, 221) 1px;
+  color: rgb(26, 25, 25);
+  display: inline-block;
+  font-size: 1.10em;
+  margin-bottom: 15px;
+  border-radius: 2px;
+  padding: 10px 10px;
+  text-align: center;
+  width: 87%;
+  text-decoration: none;
+  font-family: 'Times new roman', Courier, monospace;
+}
+form label input{
+  outline: none;
+  border: solid rgb(225, 221, 221) 1px;
+  padding:  10px;
+  font-size: 1.10em;
+ font-family: 'Times new roman', Courier, monospace;
+ border-radius: 2px;
+ display: inline-block;
+ width: 100%;
+ 
+}
+.boton{
+  background:black;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: larger;
+}
+p{
+  color: #8c8181;
+}
+.fa-brands fa-google{
+  text-align: left;
+}
