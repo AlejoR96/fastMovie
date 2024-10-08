@@ -20,16 +20,16 @@
       <img src="img/" alt="" class="nav-brand">
     <ul>
       <li>
-        <a href="#">home</a>
+        <a href="#index">home</a>
       </li>
       <li>
-        <a href="#">Series</a>
+        <a href="#Series">Series</a>
       </li>
       <li>
-        <a href="#">Peliculas</a>
+        <a href="#Movies">Peliculas</a>
       </li>
       <li>
-        <a href="#">planes</a>
+        <a href="#Planes">planes</a>
       </li>
       <li>
         <a href="./login.html">Iniciar sesión</a>
@@ -54,10 +54,10 @@
       <a class="notesLink" href="#">Empezar a ver <i class="fa-solid fa-arrow-right-long"></i></a>
     </header>
 
-    <h1 class="titleCards">Estrenos del mes </h1>
+    <h1 class="titleCards" id="index">Estrenos del mes </h1>
 
-    <!----Cards premier peliculas -->
-    <div class="cardsPremiere">
+    <!---- Section Cards premiere series and movies -->
+    <div class="cardsPremiere" >
       <!----Series---->
       <div>
         <img src="./img/stranger-things.png" alt="premiereOne">
@@ -75,14 +75,24 @@
             <!-- Video de YouTube -->
             <iframe width="560" height="315" src="https://www.youtube.com/embed/d0JYlUTbv1A?si=oy40kqXkrrCjNkWd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
-    </div>
+      </div>
       
       <div>
         <img src="./img/13reasonswhy.jpg" alt="premiereTwo">
         <h3> 13 razones </h3>
         <h4>4 temporadas</h4>
         <p>Después de que una mujer joven se quite la vida, su compañero de clase encuentra una misteriosa caja en su patio</p>
-        <a href="">Ver trailer <i class="fa-solid fa-arrow-right-long"></i></a>
+        <a href="#" id="openModalBtn">Ver trailer <i class="fa-solid fa-arrow-right-long"></i></a>
+      </div>
+
+      <!---- Modal video -->
+      <div id="myModal" class="modal">
+        <!-- Content of modal -->
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn">&times;</span>
+            <!-- Video de YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/d0JYlUTbv1A?si=oy40kqXkrrCjNkWd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </div>
 
       <div>
@@ -130,13 +140,140 @@
         <p>el universo está en ruinas. Con la ayuda de los aliados restantes, los Vengadores se reúnen una vez más con el fin de revertir las acciones de Thanos y restaurar el equilibrio en el universo.</p>
         <a href="#">Ver trailer <i class="fa-solid fa-arrow-right-long"></i></a>
       </div>
-
-      <h1 class="titleCards">Series </h1>
       
-
     </div>
 
-    
+    <!---- Section Cards only series  -->
+    <h1 class="titleCards" id="Series">Series </h1>
+
+    <div class="cardsPremiere" >
+      <!----Series---->
+      <div>
+        <img src="./img/Chernobyl.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      
+      <div>
+        <img src="./img/madMen.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      <div>
+        <img src="./img/successión.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      <div>
+        <img src="./img/Blackmirror.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      <div>
+        <img src="./img/gameOfThrones.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      <div>
+        <img src="./img/theoffice.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      <div>
+        <img src="./img/greyAnatomy.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+
+      <div>
+        <img src="./img/narcos.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+
+ 
+      
+    </div>
+
+    <!---- Section Cards only Movies  -->
+    <h1 class="titleCards" id="Movies">Peliculas </h1>
+
+    <div class="cardsPremiere" >
+      <!----Series---->
+      <div>
+        <img src="./img/goodFellas.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      
+      <div>
+        <img src="./img/thegodfather.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      <div>
+        <img src="./img/bladeRunner.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      <div>
+        <img src="./img/Djangosincadenas.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      <div>
+        <img src="./img/bastardosSinGloria.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      <div>
+        <img src="./img/elLobodelWallStreet.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      <div>
+        <img src="./img/milagrosInesperados.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+      
+      <div>
+        <img src="./img/historias cruzadas.jpg" >
+        <h3>Chernobyl</h3>
+        <h3>1 temporada </h3>
+        <p>Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.</p>
+      </div>
+
+ 
+      
+    </div>
+
+     <!---- Section Cards only plans  -->
+     <h1 class="titleCards" id="Planes">Planes </h1>
+
+
+     <div class="plansContainer">
+      <div class="imgPlan">
+        <img  src="./img/plans.png" >
+      </div>
+     </div>
+
+   
 
   </div> <!-- Menu of navigation | final   -->
 

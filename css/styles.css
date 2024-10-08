@@ -95,6 +95,12 @@ hr{
   
 }
 
+.titleCards{
+  text-align: center;
+  margin: 5px;
+  padding: 20px;
+  
+}
 
 .cardsPremiere{
   display: grid;
@@ -152,3 +158,26 @@ iframe {
  width: 100%;
  height: 500px;
 }
+
+.plansContainer{
+
+  height: 200px;
+  border-width:2px ;
+  
+
+}
+
+.imgPlan{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imgPlan img{
+
+border: 2px solid #ffffff;
+
+}
+
