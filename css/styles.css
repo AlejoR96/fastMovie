@@ -29,6 +29,7 @@ a{
   align-items: center;
   height: 60px;
   padding: 20px 0;
+  
 }
 
 hr{
@@ -44,6 +45,7 @@ hr{
 .nav-main ul {
   display: flex;
   list-style: none;
+  
 }
 
 .nav-main ul li {
